@@ -1,0 +1,4 @@
+﻿  Source.cpp
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(27,8): warning C4101: 'grid': unreferenced local variable
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(44,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pathfinding.vcxproj -> L:\cmp 201\pathfind\Pathfinding\Debug\Pathfinding.exe
