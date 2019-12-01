@@ -1,0 +1,15 @@
+﻿  Source.cpp
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(37,21): warning C4018: '<': signed/unsigned mismatch
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(44,21): warning C4018: '<': signed/unsigned mismatch
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(58,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(59,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(83,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(222,23): warning C4018: '<': signed/unsigned mismatch
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(242,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(258,24): warning C4018: '<': signed/unsigned mismatch
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(269,24): warning C4018: '<': signed/unsigned mismatch
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(311,23): warning C4018: '<': signed/unsigned mismatch
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(336,22): warning C4018: '<': signed/unsigned mismatch
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(75,10): warning C4101: 'est': unreferenced local variable
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(347,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pathfinding.vcxproj -> L:\cmp 201\pathfind\Pathfinding\Debug\Pathfinding.exe
