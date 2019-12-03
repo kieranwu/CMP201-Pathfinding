@@ -1,0 +1,13 @@
+﻿  Source.cpp
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(97,66): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(97,66): warning C4244:         with
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(97,66): warning C4244:         [
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(97,66): warning C4244:             _Rep=__int64
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(97,66): warning C4244:         ]
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(114,66): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(114,66): warning C4244:         with
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(114,66): warning C4244:         [
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(114,66): warning C4244:             _Rep=__int64
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(114,66): warning C4244:         ]
+L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(133,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pathfinding.vcxproj -> L:\cmp 201\pathfind\Pathfinding\Debug\Pathfinding.exe
