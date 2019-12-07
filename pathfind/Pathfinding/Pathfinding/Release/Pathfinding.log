@@ -1,0 +1,20 @@
+﻿  AStar.cpp
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(29,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(30,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(57,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(127,21): warning C4018: '<': signed/unsigned mismatch
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(153,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(188,21): warning C4018: '<': signed/unsigned mismatch
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(211,21): warning C4018: '<': signed/unsigned mismatch
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(238,21): warning C4018: '>': signed/unsigned mismatch
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(273,21): warning C4018: '<': signed/unsigned mismatch
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(46,8): warning C4101: 'est': unreferenced local variable
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(325,21): warning C4018: '<': signed/unsigned mismatch
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(387,20): warning C4018: '<': signed/unsigned mismatch
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\AStar.cpp(397,20): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  3 of 306 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pathfinding.vcxproj -> L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Release\Pathfinding.exe

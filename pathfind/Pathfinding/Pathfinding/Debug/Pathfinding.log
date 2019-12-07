@@ -1,4 +1,26 @@
 ﻿  Source.cpp
-L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(27,8): warning C4101: 'grid': unreferenced local variable
-L:\cmp 201\pathfind\Pathfinding\Pathfinding\Source.cpp(44,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Pathfinding.vcxproj -> L:\cmp 201\pathfind\Pathfinding\Debug\Pathfinding.exe
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244: 'argument': conversion from '_Rep' to 'const _Ty', possible loss of data
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:         with
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:         [
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:             _Rep=__int64
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:         ]
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:         and
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:         [
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:             _Ty=float
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(112,23): warning C4244:         ]
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244: 'argument': conversion from '_Rep' to 'const _Ty', possible loss of data
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:         with
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:         [
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:             _Rep=__int64
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:         ]
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:         and
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:         [
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:             _Ty=float
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(130,25): warning C4244:         ]
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(202,15): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(202,15): warning C4244:         with
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(202,15): warning C4244:         [
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(202,15): warning C4244:             _Rep=__int64
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(202,15): warning C4244:         ]
+L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Pathfinding\Source.cpp(217,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pathfinding.vcxproj -> L:\CMP 201 Coursework\C++ files\pathfind\Pathfinding\Debug\Pathfinding.exe
