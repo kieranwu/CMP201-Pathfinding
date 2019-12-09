@@ -36,8 +36,13 @@
 	vector <float> LeeTimes;
 	vector <float> AStarTimes;
 
-	//this will all the application to write to a file named test.csv
-	ofstream my_file("test.csv");
+	//this will all the application to write to a file 
+	ofstream my_file("data/averages.csv");
+	ofstream my_file5("data/5x5.csv");
+	ofstream my_file10("data/10x10.csv");
+	ofstream my_file15("data/15x15.csv");
+	ofstream my_file20("data/20x20.csv");
+	ofstream my_file25("data/25x25.csv");
 
 	// Define the alias "the_clock" for the clock type we're going to use.
 	typedef std::chrono::steady_clock the_clock;
@@ -92,6 +97,8 @@
 		//This pointer pointer will store the randomly generated map created in the map object
 		int** map;
 
+		
+
 		//This will loop for the value of times
 		for (int i = 0; i < times; i++)
 		{
@@ -144,12 +151,6 @@
 
 		//write average to csv file
 		my_file << LeeTimes[times / 2] << "," << AStarTimes[times / 2] <<","<< width << endl;
-
-		for (int i = 0; i < times; i++)
-		{
-			LeeTimes.pop_back();
-			AStarTimes.pop_back();
-		}
 
 	}
 	
@@ -210,19 +211,86 @@
 	}
 	*/
 
+	//simple function to clear the vectors for re-use
+	void clearVectors(int times)
+	{
+		for (int i = 0; i < times; i++)
+		{
+			LeeTimes.pop_back();
+			AStarTimes.pop_back();
+		}
+	}
+
+
 	//Main function will create a starting location and pass the map into the pathfinding algorithms
 int main()
 {	
 	//create a random seed for the generation of the map
 	srand(time(NULL));	
 
-	//print title of columns to file
-	my_file << "Time A" << "," << "Time B"<<","<<"Size of Grid" << endl;
+
+	int times = 100;
 
 	//run tests 100 times each with different map sizes
-	test(100,5,5);
-	test(100, 10, 10);
-	test(100, 15, 15);
-	test(100, 20, 20);
-	test(100, 25, 25);
+	test(times,5,5);
+
+	//print title of columns to file
+		my_file5 << "Lee Times" << "," << "A* Times" <<  endl;
+	//write to CSV
+	for (int i = 0; i < times; i++)
+	{
+		//write data  to csv file
+		my_file5 << LeeTimes[i] << "," << AStarTimes[i] <<  endl;
+	}
+	//reset vectors
+	clearVectors(times);
+
+
+	test(times, 10, 10);
+	//print title of columns to file
+		my_file10 << "Lee Times" << "," << "A* Times" << endl;
+	for (int i = 0; i < times; i++)
+	{
+		//write data  to csv file
+		my_file10 << LeeTimes[i] << "," << AStarTimes[i] << endl;
+	}
+	clearVectors(times);
+
+
+	test(times, 15, 15);
+
+	//print title of columns to file
+	my_file15 << "Lee Times" << "," << "A* Times" << endl;
+
+	for (int i = 0; i < times; i++)
+	{
+		//write data  to csv file
+		my_file15 << LeeTimes[i] << "," << AStarTimes[i] << endl;
+	}
+	clearVectors(times);
+
+	test(times, 20, 20);
+
+	//print title of columns to file
+	my_file20 << "Lee Times" << "," << "A* Times" << endl;
+
+	for (int i = 0; i < times; i++)
+	{
+		//write data  to csv file
+		my_file20 << LeeTimes[i] << "," << AStarTimes[i] << endl;
+	}
+	clearVectors(times);
+
+	test(times, 25, 25);
+
+	//print title of columns to file
+	my_file25 << "Lee Times" << "," << "A* Times" << endl;
+
+	for (int i = 0; i < times; i++)
+	{
+		//write data  to csv file
+		my_file25 << LeeTimes[i] << "," << AStarTimes[i] << endl;
+	}
+	clearVectors(times);
+
 }
